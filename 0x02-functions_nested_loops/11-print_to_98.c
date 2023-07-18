@@ -2,10 +2,12 @@
 #include "main.h"
 
 /**
- * print_to_98 - prints all natural numbers from n to 98,
- * followed by a new line
- * @n: print from this number
-*/
+ * print_to_98 - prints all natural nums n to 98
+ *
+ * @n: int val
+ *
+ * Return: n to 98
+ */
 
 int print_to_98(int n)
 {
