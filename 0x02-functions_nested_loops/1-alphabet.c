@@ -1,7 +1,8 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * print_alphabet - uilizes on the _putchar function to print a - z
+ * print_alphabet - uilizes on the _putchar function to print
+ * a - z
 */
 
 void print_alphabet(void)
