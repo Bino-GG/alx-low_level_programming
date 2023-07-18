@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -9,36 +8,15 @@
  * Return: n to 98
  */
 
-int print_to_98(int n)
+void print_to_98(int n)
 {
-	if (n <= 98)
-	{
-		for (; n <= 98; n++)
-		{
-			printf("%d", n);
+	int count;
 
-			if (n != 98)
-			{
-				printf(", ");
-			}
-		}
-		printf("\n");
-	}
-	else if (n > 98)
-	{
-		for (; n >= 98; n--)
-		{
-			printf("%d", n);
-
-			if (n != 98)
-			{
-				printf(", ");
-			}
-		}
-		printf("\n");
-	}
+	if (n > 98)
+		for (count = n; count > 98; count--)
+			printf("%d", count);
 	else
-
-		printf("98");
-	return (98);
+		for (count = n; count < 98; count++)
+			printf("%d", count);
+	printf("98\n");
 }
