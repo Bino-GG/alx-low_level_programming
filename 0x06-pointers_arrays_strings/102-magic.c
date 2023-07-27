@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * Description: print a[2] = 98
+ * Return: 98
+*/
+
 int main(void)
 {
 	int n;
